@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\camMovement.cs" />
+     <Compile Include="Assets\Scripts\Character\sizeController.cs" />
      <Compile Include="Assets\Scripts\Character\touchMovement.cs" />
+     <Compile Include="Assets\Scripts\Level\spawner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
